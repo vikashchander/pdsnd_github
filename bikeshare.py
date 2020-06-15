@@ -27,6 +27,7 @@ WEEK_DATA = { 'monday': 0,
                 'sunday': 6
       }
 
+# filters function which ask user to specify a city,month and day
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
