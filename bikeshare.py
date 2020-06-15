@@ -1,11 +1,14 @@
 import time
 import math
+# import pandas and numpy library
 import pandas as pd
 import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+
+# add months Data
 MONTH_DATA = { 'january': 1,
                 'february': 2,
                 'march': 3,
@@ -14,6 +17,7 @@ MONTH_DATA = { 'january': 1,
                 'june': 6
                 }
 
+#add weeks Data
 WEEK_DATA = { 'monday': 0,
                 'tuesday': 1,
                 'wednesday': 2,
